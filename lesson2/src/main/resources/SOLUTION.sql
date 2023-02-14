@@ -16,16 +16,16 @@ INSERT INTO Student(name,birthday,groupnumber) VALUES('Mika','1995-03-15',5);
 INSERT INTO Student(name,birthday,groupnumber) VALUES('Kevin','1996-04-16',5);
 INSERT INTO Student(name,birthday,groupnumber) VALUES('Charly','1997-05-17',5);
 
-INSERT INTO Subjetc(name,description,grade) VALUES('Art','art',1);
-INSERT INTO Subjetc(name,description,grade) VALUES('Music','msc',1);
-INSERT INTO Subjetc(name,description,grade) VALUES('Geography','geo',2);
-INSERT INTO Subjetc(name,description,grade) VALUES('History','hstr',2);
-INSERT INTO Subjetc(name,description,grade) VALUES('PE','pe',3);
-INSERT INTO Subjetc(name,description,grade) VALUES('Math','math',3);
-INSERT INTO Subjetc(name,description,grade) VALUES('Science','sc',4);
-INSERT INTO Subjetc(name,description,grade) VALUES('IT','it',4);
-INSERT INTO Subjetc(name,description,grade) VALUES('Sociology','socio',5);
-INSERT INTO Subjetc(name,description,grade) VALUES('Biology','bio',5);
+INSERT INTO Subject(name,description,grade) VALUES('Art','art',1);
+INSERT INTO Subject(name,description,grade) VALUES('Music','msc',1);
+INSERT INTO Subject(name,description,grade) VALUES('Geography','geo',2);
+INSERT INTO Subject(name,description,grade) VALUES('History','hstr',2);
+INSERT INTO Subject(name,description,grade) VALUES('PE','pe',3);
+INSERT INTO Subject(name,description,grade) VALUES('Math','math',3);
+INSERT INTO Subject(name,description,grade) VALUES('Science','sc',4);
+INSERT INTO Subject(name,description,grade) VALUES('IT','it',4);
+INSERT INTO Subject(name,description,grade) VALUES('Sociology','socio',5);
+INSERT INTO Subject(name,description,grade) VALUES('Biology','bio',5);
 
 INSERT INTO PaymentType(name) VALUES('DAILY');
 INSERT INTO PaymentType(name) VALUES('WEEKLY');
