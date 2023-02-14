@@ -4,4 +4,4 @@ SELECT * FROM student WHERE groupnumber = 10 AND Dateadd (year, -20, CURRENT_DAT
 SELECT * FROM student WHERE name LIKE 'Mike%' OR groupnumber IN (4, 5, 6);
 SELECT * FROM payment WHERE payment_date >= (SELECT Dateadd(month, -8, CURRENT_DATE) AS DateAdd);
 SELECT * FROM student WHERE name LIKE 'A%';
-SELECT * FROM student WHERE (name LIKE 'Roxi' AND groupnumber = 4) OR (name LIKE 'Tallie' AND groupnumber = 9);
+SELECT * FROM student WHERE (name = 'Roxi' AND groupnumber = 4) OR (name = 'Tallie' AND groupnumber = 9);
